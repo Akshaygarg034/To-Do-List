@@ -1,0 +1,79 @@
+body{
+  background-color: skyblue;
+  font-family: sans-serif;
+}
+.intro{
+  margin: 30px 0;
+  font-weight: bold;
+}
+h1{
+  color: white;
+  font-weight: 600;
+  font-size: 45px;
+}
+p{
+  font-weight: 600;
+  font-size: 25px;
+}
+#first{
+  color: rgb(255, 94, 0);
+  margin-top: 10px;
+}
+#second{
+  color: green;
+}
+#third{
+  color: rgb(1, 1, 121);
+  margin-top: 30px;
+}
+#enter{
+  padding: 5px 15px;
+  border-radius: 5px;
+  color: rgb(64, 64, 241);
+  background-color: white;
+  margin-top: -2.5px;
+}
+#enter:hover{
+  color: white;
+  background-color: #02798F;
+}
+input{
+  border-radius: 5px;
+  min-width: 65%;
+  padding: 5px;
+  border: none;
+  font-size: 17px;
+}
+ul{
+  text-align: center;
+  margin-top: 20px;
+}
+li{
+  list-style: none;
+  padding: 5px 20px;
+  color: white;
+  text-transform: capitalize;
+  font-weight: 600;
+  border: 2px solid #025f70;
+  border-radius: 5px;
+  margin-top: 10px;
+  background: #4eb9cd;
+}
+li:hover{
+  background: #76cfe0;
+}
+li > button{
+  font-weight: normal;
+  background: none;
+  border: none;
+  float: right;
+  font-weight: 600;
+  color: #025f70;
+}
+.done{
+  background: #51df70 !important;
+  color: #00891e;
+}
+.delete{
+  display: none;
+}
